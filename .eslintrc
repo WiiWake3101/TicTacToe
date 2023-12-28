@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "prettier"
+  ],
+  "env": {
+    "browser": true
+  },
+  "parser": {
+    "ecamVersion":2021,
+    "ecamFeatures":{
+        "jsx":true
+    },
+    "sourceType":"module"
+  },
+  "settings":{
+    "react":{
+        "version":"detect"
+    }
+  },
+  "rules": {
+    "react/prop-types":"off"
+  }
+}
